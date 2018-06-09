@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link href="Menu.css" rel="stylesheet" type="text/css"/>
+<link href="Slide.css" rel="stylesheet" type="text/css"/>
+<link href="MainContent" rel="stylesheet" type="text/css"/>
+<link href="Footer.css" rel="stylesheet" type="text/css"/>
+
+<style type="text/css">
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+#Container {
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	height: auto;
+}
+#Header {
+	height: 80px;
+	width: 1005px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	
+	
+}
+#NavBar {
+	height: 50px;
+	width: 1005px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+}
+#MainContent {
+	height: 400px;
+	width: 1005px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	margin-top: 1px;
+	padding-bottom: 60px;
+	text-align: center;
+	padding-bottom: 3px;
+	
+
+	
+	
+}
+#Footer {
+	height: 50px;
+	width: 1005px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	padding-top: 20px;
+	background-color:skyblue;
+	border-top: 2px solid #F1E4E4;
+	border-radius: 6px;
+}
+	
+#icons{
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color: white;
+	font-size: 18px;
+	margin-top: 2px;
+	font-weight: bolder;
+	text-align: center;
+	
+	}
+#image{
+	margin-top: px;
+	}
+	
+
+	.contact-title{
+		margin-top: 100px;
+		color:#fff;
+		transition: 4s ease-in-out;
+	}
+	
+	.contact-title h1{
+		font-size: 32px;
+		line-height: 10px;
+		color: dodgerblue;
+	}
+	.contact-title h2{
+		font-size: 20px;
+		line-height: 10px;
+		color: dodgerblue;
+	}
+	
+	form{
+		margin: 40px;
+		transition: all 4 ease-in-out;
+	}
+	
+	.form-control{
+		width: 600px;
+		background: transparent;
+		border: 2px solid grey;
+		outline: none;
+		color: #000;
+		font-size: 18px;
+		margin-bottom: 16px;
+		border-radius: 7px;
+	
+	
+	}
+	.active{
+		 background-color: skyblue !important;
+		
+	}
+
+</style>
+</head>
+
+<body>
+<div id="Container">
+  <div id="Header">
+  	<img src="image/IT Village logo.png" alt="" width="180px" height="80px" align="left">
+  </div>
+  	
+  <div id="NavBar">
+  	<ul>
+		<li ><a href="index.html">Home</a></li>
+		<li ><a href="#">About</a></li>
+		<li ><a href="#">Products</a></li>
+	  <li visibility="hidden"><a href="#">Services   &raquo;</a>
+				<ul>
+					<li ><a href="#">CCTV System</a></li>
+					<li ><a href="#">Gate Automation</a></li>
+					<li ><a href="#">Access Control System</a></li>
+					<li ><a href="#">PABX & CATV System</a></li>
+					<li ><a href="#">Fire & Burglar System</a></li>
+				</ul>
+			</li>
+			  		<li ><a class="active" href="#">Contact</a></li>
+	</ul>
+	</div>
+	
+  <div id="MainContent">
+<div id="Slide"></div>
+  	<div class="contact-title">
+		<h1> Welcome!</h1>
+		<h2>We are Always to Serve You</h2>.
+	</div>
+	
+	<div class="contact-form">
+	  <form id="contact-form" method="post" action="">
+			<input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+			<input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+			<textarea name="Message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+			<input type="Submit" class="form-control submit" value="Send Message">
+	  </form>
+		
+	</div>
+  </div>
+  
+  
+</div>
+  
+<div id="Footer">
+  <div id="icons">Copyrights 2017 &nbsp; IT Village Co.,Ltd.</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li{
+	float: left;
+	width: 200px;
+	height: 60px;
+	background-color: lightslategray;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+	border-right: 1px solid #F1E4E4;
+	text-overflow: clip;
+	border-bottom: 1px solid #F1E4E4;
+	
+	
+
+		
+}
+ul li a{
+	text-decoration: none;
+	color: ghostwhite;
+	display: block;
+	border-top: 0.8px solid #F1E4E4;
+}
+
+ul li:hover{
+	background-color:dodgerblue;
+}
+
+
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}.id {
+}

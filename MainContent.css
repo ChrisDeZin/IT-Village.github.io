@@ -1,0 +1,135 @@
+.container{
+			width: 800px;
+			overflow: hidden;.container{
+			width: 800px;
+			overflow: hidden;.container{
+			width: 800px;
+			overflow: hidden;.container{
+			width: 800px;
+			overflow: hidden;.container{
+			width: 800px;
+			overflow: hidden;#slide  {
+			width: 7200px;
+			
+			position: relative;
+			animation-name: slide;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-delay: 1s;
+			
+		}
+		#slide img{
+					width: 1005px;
+					float: right;
+					height: 650px;  
+
+		}
+	@keyframes slide{
+		0%{
+					left: 0px;
+		}
+		20%{
+					left: -1005px;
+		}
+		40%{
+					left: -2010px;
+		}
+		60%{
+					left: -3015px;
+		}
+		80%{
+					left: -4020px;
+		}
+		90%{
+					left:-5025px;
+		}
+		100%{
+					left:0px;
+		}
+		
+	
+	}
+#slide  {
+			width: 7200px;
+			
+			position: relative;
+			animation-name: slide;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-delay: 1s;
+			
+		}
+		#slide img{
+					width: 1005px;
+					float: right;
+					height: 650px;  
+
+		}
+	@keyframes slide{
+		0%{
+					left: 0px;
+		}
+		20%{
+					left: -1005px;
+		}
+		40%{
+					left: -2010px;
+		}
+		60%{
+					left: -3015px;
+		}
+		80%{
+					left: -4020px;
+		}
+		90%{
+					left:-5025px;
+		}
+		100%{
+					left:0px;
+		}
+		
+	
+	}
+#slide  {
+			width: 7200px;
+			
+			position: relative;
+			animation-name: slide;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-delay: 1s;
+			
+		}
+		#slide img{
+					width: 1005px;
+					float: right;
+					height: 650px;  
+
+		}
+	@keyframes slide{
+		0%{
+					left: 0px;
+		}
+		20%{
+					left: -1005px;
+		}
+		40%{
+					left: -2010px;
+		}
+		60%{
+					left: -3015px;
+		}
+		80%{
+					left: -4020px;
+		}
+		90%{
+					left:-5025px;
+		}
+		100%{
+					left:0px;
+		}
+		
+	
+	}
+/* CSS Document */
+
